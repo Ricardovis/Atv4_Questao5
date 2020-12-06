@@ -1,0 +1,13 @@
+programa {
+	funcao inicio() {
+		
+		real raio
+		escreva("Olá! Bem vindo á calculadora de áreas circulares, por favor me informe o raio do círculo que desejas saber a área: ")
+		leia(raio)
+		limpa()
+		
+		real raio_ao_quad = raio*raio
+		
+		escreva("O perímetro do círculo é : ", 3.14*raio_ao_quad, "\n \n \n")
+	}
+}
